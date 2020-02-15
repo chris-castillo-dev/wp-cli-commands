@@ -1,1 +1,1 @@
-gp wp search-replace '\(http|https)://old-domain.com' 'https://new-domain.com' --regex --regex-flags='i' --dry-run
+wp search-replace '(http|https)://staging.domain.com' 'http://domain.com' --regex --dry-run --allow-root
